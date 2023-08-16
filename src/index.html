@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test2</title>
+    <title>Restaurant Page</title>
 </head>
 <body>
     <header class="header">
         <p class="header__title">Restaurant</p>
         <nav class="header__navigation">
             <ul class="header__menu menu">
-                <li class="menu__item">Home</li>
-                <li class="menu__item">Menu</li>
-                <li class="menu__item">About</li>
+                <li id="home" class="menu__item">Home</li>
+                <li id="menu" class="menu__item">Menu</li>
+                <li id="about" class="menu__item">About</li>
             </ul>
         </nav>
     </header>
     <main class="wrap">
-        <div class="container"></div>
+        <div class="container">
+            <div class="page" id="homePage" style="background-color: red">
+                asdfasdfsdfa
+            </div>
+            <div class="page" id="menuPage" style="background-color: blue">
+                <div class="menu__dish">
+                    <img src="assets/imgs/dish.jpg" alt="#">
+                    <article class="menu__about">
+                        <p class="menu__title">Soup</p>
+                        <ul class="menu__ingredients">
+                            <li>Test_1.............100 g</li>
+                            <li>Test_2.............200 g</li>
+                            <li>Test_3.............300 g</li>
+                            <li>Test_4.............400 g</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="menu__dish">
+                    <img src="assets/imgs/rolls.jpg" alt="#">
+                    <article class="menu__about">
+                        <p class="menu__title">Soup</p>
+                        <ul class="menu__ingredients">
+                            <li>Test_1.............100 g</li>
+                            <li>Test_2.............200 g</li>
+                            <li>Test_3.............300 g</li>
+                            <li>Test_4.............400 g</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="menu__dish">
+                    <img src="assets/imgs/tuna.jpg" alt="#">
+                    <article class="menu__about">
+                        <p class="menu__title">Soup</p>
+                        <ul class="menu__ingredients">
+                            <li>Test_1.............100 g</li>
+                            <li>Test_2.............200 g</li>
+                            <li>Test_3.............300 g</li>
+                            <li>Test_4.............400 g</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <div class="page" id="aboutPage" style="background-color: green"></div>
+        </div>
     </main>
 </body>
 </html>

@@ -17,18 +17,30 @@
 }
 
 .header__navigation {
-    ul {
-        max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .header__menu {
+        flex: 1;
+
+        max-width: 1100px;
         display: flex;
         align-items: end;
         justify-content: space-between;
 
-        li {
+        .menu__item {
+            flex: 1;
+
             color: #D5CEA3;
             padding: 20px 50px;
+            text-align: center;
+            font-size: 18px;
+
             border-bottom: 0px solid #817d7d;
             border-left: 1px solid #817d7d;
             border-right: 1px solid #817d7d;
+            cursor: pointer;
+
             transition: 0.3s;
             
             &:nth-child(2) {

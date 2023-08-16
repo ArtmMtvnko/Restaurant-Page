@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test2</title>
+    <title>Restaurant Page</title>
 </head>
 <body>
-    
+    <header class="header">
+        <p class="header__title">Restaurant</p>
+        <nav class="header__navigation">
+            <ul class="header__menu menu">
+                <li id="home" class="menu__item">Home</li>
+                <li id="menu" class="menu__item">Menu</li>
+                <li id="about" class="menu__item">About</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrap">
+        <div class="container">
+            <div class="page" id="homePage" style="background-color: red"></div>
+            <div class="page" id="menuPage" style="background-color: blue">
+                <div class="menu__dish">
+                    <img src="assets/dish.jpg" alt="#">
+                    <article class="menu__about">
+                        <p class="menu__title">Soup</p>
+                        <ul class="menu__ingredients">
+                            <li>Test_1</li>
+                            <li>Test_2</li>
+                            <li>Test_3</li>
+                            <li>Test_4</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <div class="page" id="aboutPage" style="background-color: green"></div>
+        </div>
+    </main>
 <script defer src="bundle.js"></script></body>
 </html>
