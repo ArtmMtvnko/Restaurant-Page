@@ -51,7 +51,6 @@
         font-weight: 700;
         letter-spacing: 3px;
         color: #fff;
-        vertical-align: middle;
     }
 
     svg {
@@ -62,6 +61,7 @@
 .main__home-description {
     margin: 30px;
     line-height: 1.5rem;
+    min-width: 900px;
 }
 
 @keyframes bouncing {
