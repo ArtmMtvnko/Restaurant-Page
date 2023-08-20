@@ -1,4 +1,4 @@
-const homePage = 
+export const homePage = 
 `
 <div class="page" id="homePage">
     <div class="main__home-info">

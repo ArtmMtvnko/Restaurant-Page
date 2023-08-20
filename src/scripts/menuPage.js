@@ -1,4 +1,4 @@
-const menuPage =
+export const menuPage =
 `
 <div class="page" id="menuPage">
     <div class="menu__dish">
